@@ -2,7 +2,7 @@ name: Activity Box
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '*/10 * * *'
 
 jobs:
   build:
@@ -15,4 +15,4 @@ jobs:
           GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USERNAME: fiqryq
-          GIST_ID: 7bb2849e23996fc737a7a7a17a83ddeb
+          GIST_ID: 19a53d7db11bd11dd834afc5b8a89e07
