@@ -1,7 +1,7 @@
 {
   "name": "activity-box",
   "version": "0.0.1",
-  "description": "⚡️📌️ Update a gist to contain your recent activity",
+  "description": "\u26a1\ufe0f\ud83d\udccc\ufe0f Update a gist to contain your recent activity",
   "author": "Jason Etcovitch <jasonetco@gmail.com>",
   "license": "ISC",
   "scripts": {
@@ -14,7 +14,6 @@
   },
   "dependencies": {
     "actions-toolkit": "^4.0.0",
-    "dotenv": "^8.2.0",
     "gist-box": "^0.3.1"
   },
   "devDependencies": {
